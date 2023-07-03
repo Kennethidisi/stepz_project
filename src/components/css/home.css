@@ -1,0 +1,317 @@
+.header_container{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    animation: changeBg;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.65)), url(../images/nike.jpeg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.banner{
+    width: 100%;
+    height: calc(120vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    margin-top: 170px;
+}
+
+.writeup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.writeup h1{
+    color: white;
+    font-size: 60px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.writeup p{
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.home_btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.home_btn button{
+    padding: 10px 20px;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    width: 160px;
+    transition: background-color .3s ease;
+}
+
+.home_btn button:hover{
+    background-color: #FE6A27;
+    color: white;
+    border: transparent;
+}
+
+.learn_btn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    letter-spacing: .5px;
+}
+
+.shop_btn{
+    background-color: white;
+    border: 2px solid white;
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+
+.mydiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 90px;
+    padding: 0px 80px;
+    margin-bottom: 60px;
+}
+
+.divtitle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divtitle h1{
+    color: #222;
+    font-size: 50px;
+    letter-spacing: .5px;
+}
+
+.divtitle .underline{
+    width: 150px;
+    height: 4px;
+    background-color: #FE6A27;
+}
+
+.trending_prod{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.about_text{
+    width: 72%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_text p{
+    width: 100%;
+    text-align: center;
+    letter-spacing: .7px;
+    color: #666;
+    line-height: 33px;
+}
+
+
+
+
+@media(max-width:450px){
+    .header_container{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        animation: none;
+        animation-duration: 60s;
+        animation-iteration-count: infinite;
+        background: none;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    .banner{
+        width: 100%;
+        height: calc(50vh - 60px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        animation: changeBg;
+        animation-duration: 60s;
+        animation-iteration-count: infinite;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.65)), url(../images/nike.jpeg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top: 60px;
+    }
+    
+    .writeup{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .writeup h1{
+        color: white;
+        font-size: 20px;
+        letter-spacing: 1.5px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    
+    
+    .writeup p{
+        color: rgba(255, 255, 255, 0.752);
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-style: italic;
+    }
+    
+    .home_btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .home_btn button{
+        padding: 6px 10px;
+        outline: none;
+        cursor: pointer;
+        font-size: 14px;
+        width: 110px;
+        transition: background-color .3s ease;
+    }
+    
+    .home_btn button:hover{
+        background-color: #FE6A27;
+        color: white;
+        border: transparent;
+    }
+    
+    .learn_btn{
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+        letter-spacing: .5px;
+    }
+    
+    .shop_btn{
+        background-color: white;
+        border: 2px solid white;
+        letter-spacing: .5px;
+        font-weight: 600;
+    }
+    
+    .mydiv{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 50px;
+        padding: 0px 25px;
+        margin-bottom: 50px;
+    }
+    
+    .divtitle{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .divtitle h1{
+        color: #222;
+        font-size: 30px;
+        letter-spacing: .5px;
+    }
+    
+    .divtitle .underline{
+        width: 100px;
+        height: 4px;
+        background-color: #FE6A27;
+    }
+    
+    .trending_prod{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    
+    .about_text{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about_text p{
+        width: 100%;
+        text-align: center;
+        letter-spacing: .5px;
+        color: #666;
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+
+
+
+@keyframes changeBg{
+    from{
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.65)), url(../images/nike.jpeg);
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+    to{
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.65)), url(../images/beautiful_nikes.jpeg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+  }

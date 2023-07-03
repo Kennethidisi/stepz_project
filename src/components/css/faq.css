@@ -1,0 +1,160 @@
+.faqs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+}
+
+.faq_article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+.faq_article .faq_title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq_article .faq_title h2{
+    font-size: 40px;
+}
+
+.faq_article .faq_title .faq_underline{
+    width: 90px;
+    height: 4px;
+    background-color: #FE6A27;
+}
+
+.my_faq_div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.faq_div{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 25px 0px;
+    gap: 20px;
+}
+
+.faq_div span{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq_div span h4{
+    color: #666;
+    letter-spacing: .5px;
+    font-size: 16px;
+}
+
+.faq_div span .arrow{
+    width: 30px;
+}
+
+.faq_div p{
+    font-size: 16px;
+    color: #222;
+    letter-spacing: .5px;
+}
+
+
+
+@media(max-width:450px){
+    .faqs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 100px;
+    }
+    
+    .faq_article{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .faq_article .faq_title{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .faq_article .faq_title h2{
+        font-size: 30px;
+    }
+    
+    .faq_article .faq_title .faq_underline{
+        width: 75px;
+        height: 4px;
+        background-color: #FE6A27;
+    }
+    
+    .my_faq_div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .faq_div{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+        padding: 25px 0px;
+        gap: 20px;
+    }
+    
+    .faq_div span{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .faq_div span h4{
+        color: #666;
+        letter-spacing: .5px;
+        font-size: 15px;
+    }
+    
+    .faq_div span .arrow{
+        width: 30px;
+    }
+    
+    .faq_div p{
+        font-size: 15px;
+        color: #222;
+        letter-spacing: .5px;
+    }
+}

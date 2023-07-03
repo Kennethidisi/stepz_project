@@ -1,0 +1,238 @@
+.contact_div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact_left{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 150px;
+    gap: 20px;
+}
+
+.contact_left h2{
+    font-size: 35px;
+    color: #333;
+}
+
+.addr{
+    font-size: 15px;
+}
+
+.inquire{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    font-size: 17.5px;
+}
+
+.inquire h5 span{
+    font-weight: 400;
+}
+
+
+.contact_right{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.contact_right h2{
+    font-size: 35px;
+    color: #333;
+}
+
+.contact_right p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+form input, form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+form input::placeholder, form textarea::placeholder{
+    font-size: 15px;
+    color: #ccc;
+}
+
+form input:hover, form textarea:hover{
+    border:  1px solid #FE6A27;
+}
+
+form input:focus, form textarea:focus{
+    border:  1px solid #FE6A27;
+}
+
+form button{
+    outline: none;
+    background-color: #FE6A27;
+    border: 1px solid #FE6A27;
+    color: white;
+    margin-top: 10px;
+    padding: 6px 10px;
+    font-size: 20px;
+    width: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: .8px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+form button:hover{
+    background-color: #888;
+    border: 1px solid #888;
+}
+
+
+
+@media(max-width:450px){
+    .contact_div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 90px;
+    }
+    
+    .contact_left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 20px;
+        padding-left: 20px;
+        gap: 25px;
+    }
+    
+    .contact_left h2{
+        font-size: 30px;
+        color: #333;
+    }
+    
+    .addr{
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .inquire{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        font-size: 16px;
+    }
+    
+    .inquire h5 span{
+        font-weight: 400;
+    }
+    
+    
+    .contact_right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .contact_right h2{
+        font-size: 30px;
+        color: #333;
+    }
+    
+    .contact_right p{
+        width: 100%;
+        padding-left: 20px;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    form{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 50px;
+    }
+    
+    form input, form textarea{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        outline: none;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+    
+    form input::placeholder, form textarea::placeholder{
+        font-size: 14px;
+        color: #ccc;
+    }
+    
+    form input:hover, form textarea:hover{
+        border:  1px solid #FE6A27;
+    }
+    
+    form input:focus, form textarea:focus{
+        border:  1px solid #FE6A27;
+    }
+    
+    form button{
+        outline: none;
+        background-color: #FE6A27;
+        border: 1px solid #FE6A27;
+        color: white;
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 18px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: .8px;
+        border-radius: 7px;
+        cursor: pointer;
+        transition: all .4s ease;
+    }
+    
+    form button:hover{
+        background-color: #888;
+        border: 1px solid #888;
+    }
+}

@@ -1,0 +1,102 @@
+.about_div{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.found_in{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.paragraphs{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px 50px;
+    gap: 30px;
+}
+
+.paragraphs h3{
+    width: 100%;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: .3px;
+}
+
+.paragraphs p{
+    width: 100%;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: .1px;
+}
+
+.founder{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+
+@media(max-width:450px){
+    .about_div{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .found_in{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .paragraphs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px 25px;
+        gap: 30px;
+    }
+    
+    .paragraphs h3{
+        width: 100%;
+        text-align: left;
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: .3px;
+    }
+    
+    .paragraphs p{
+        width: 100%;
+        text-align: left;
+        font-size: 17px;
+        font-weight: 300;
+        letter-spacing: .1px;
+    }
+    
+    .founder{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 60px;
+    }
+}

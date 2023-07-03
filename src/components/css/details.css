@@ -1,0 +1,498 @@
+.detail_container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  gap: 30px;
+
+}
+
+.cart_logo_d{
+    color: #333;
+    font-size: 45px;
+}
+
+.details_sect{
+  width: 700px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  position: relative;
+  padding: 15px 30px;
+  padding-top: 40px;
+  gap: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.close{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.close img{
+    width: 30px;
+}
+
+/* .detail_banner h1{
+    font-size: 45px;
+    color: #FE6A27;
+} */
+
+.detail_main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.myDetails{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.myDetails .detail_img{
+    width: 280px;
+    height: 240px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+.details{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 7px;
+}
+
+.details h2{
+    font-size: 30px;
+}
+
+.details h5{
+    font-size: 25px;
+}
+
+.details .addremove{
+    padding:8px 15px;
+    margin-top: 7px;
+    background-color: #e1e1e196;
+    border: 1px solid transparent;
+    outline: none;
+    font-size: 13px;
+    color: #666;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.details .addremove:hover{
+    background-color: #d5d4d4fa;
+    border: 1px solid transparent;
+}
+
+.details h4{
+    margin-top: 45px;
+    color:  #FE6A27;
+}
+
+.paragraph{
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+    padding: 0px 15px;
+    color: #333;
+}
+
+@media(max-width:450px){
+    .detail_container{
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        gap: 30px;
+        padding: 40px 0px;
+      
+      }
+      
+      .cart_logo_d{
+          color: #333;
+          font-size: 35px;
+      }
+      
+      .details_sect{
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: white;
+        position: relative;
+        padding: 15px 10px;
+        padding-top: 40px;
+        gap: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+      }
+      
+      .close{
+          position: absolute;
+          right: 10px;
+          top: 10px;
+      }
+      
+      .close img{
+          width: 20px;
+      }
+      
+      /* .detail_banner h1{
+          font-size: 45px;
+          color: #FE6A27;
+      } */
+      
+      .detail_main{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          gap: 20px;
+      }
+      
+      .myDetails{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 15px;
+      }
+      
+      .myDetails .detail_img{
+          width: 150px;
+          height: 150px;
+          object-fit: cover;
+          border: 2px solid #ccc;
+      }
+      
+      .details{
+          display: flex;
+          width: 60%;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          gap: 7px;
+      }
+      
+      .details h2{
+          font-size: 20px;
+      }
+      
+      .details h5{
+          font-size: 16px;
+      }
+      
+      .details .addremove{
+          padding:8px 15px;
+          margin-top: 7px;
+          background-color: #e1e1e196;
+          border: 1px solid transparent;
+          outline: none;
+          font-size: 13px;
+          color: #666;
+          font-weight: 500;
+          cursor: pointer;
+          transition: all .3s ease;
+      }
+      
+      .details .addremove:hover{
+          background-color: #d5d4d4fa;
+          border: 1px solid transparent;
+      }
+      
+      .details h4{
+          margin-top: 20px;
+          color:  #FE6A27;
+      }
+      
+      .paragraph{
+          margin-top: 20px;
+          width: 100%;
+          text-align: left;
+          padding: 0px 10px;
+          color: #333;
+          display: flex;
+      }
+}
+
+
+
+@media(max-width:380px){
+    .detail_container{
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        gap: 30px;
+        padding: 100px 0px;
+      }
+
+      .cart_logo_d{
+        color: #333;
+        font-size: 35px;
+    }
+    
+    .details_sect{
+      width: 90%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: white;
+      position: relative;
+      padding: 15px 10px;
+      padding-top: 40px;
+      gap: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    }
+    
+    .close{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    
+    .close img{
+        width: 20px;
+    }
+    
+    /* .detail_banner h1{
+        font-size: 45px;
+        color: #FE6A27;
+    } */
+    
+    .detail_main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    
+    .myDetails{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .myDetails .detail_img{
+        width: 120px;
+        height: 140px;
+        object-fit: cover;
+        border: 2px solid #ccc;
+    }
+    
+    .details{
+        display: flex;
+        width: 60%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 7px;
+    }
+    
+    .details h2{
+        font-size: 15px;
+    }
+    
+    .details h5{
+        font-size: 12px;
+    }
+    
+    .details .addremove{
+        padding:5px 5px;
+        margin-top: 7px;
+        background-color: #e1e1e196;
+        border: 1px solid transparent;
+        outline: none;
+        font-size: 10px;
+        color: #666;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all .3s ease;
+    }
+    
+    .details .addremove:hover{
+        background-color: #d5d4d4fa;
+        border: 1px solid transparent;
+    }
+    
+    .details h4{
+        margin-top: 20px;
+        color:  #FE6A27;
+        font-size: 12px;
+    }
+    
+    .paragraph{
+        margin-top: 20px;
+        width: 100%;
+        text-align: left;
+        padding: 0px 10px;
+        color: #333;
+        display: flex;
+        font-size: 15px;
+    }
+}
+
+
+
+
+@media(max-width:290px){
+    .detail_container{
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        gap: 30px;
+        padding: 100px 0px;
+      }
+
+      .cart_logo_d{
+        color: #333;
+        font-size: 35px;
+    }
+    
+    .details_sect{
+      width: 95%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: white;
+      position: relative;
+      padding: 15px 10px;
+      padding-top: 40px;
+      gap: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    }
+    
+    .close{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    
+    .close img{
+        width: 20px;
+    }
+    
+    /* .detail_banner h1{
+        font-size: 45px;
+        color: #FE6A27;
+    } */
+    
+    .detail_main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    
+    .myDetails{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .myDetails .detail_img{
+        width: 120px;
+        height: 140px;
+        object-fit: cover;
+        border: 2px solid #ccc;
+    }
+    
+    .details{
+        display: flex;
+        width: 60%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 7px;
+    }
+    
+    .details h2{
+        font-size: 15px;
+    }
+    
+    .details h5{
+        font-size: 12px;
+    }
+    
+    .details .addremove{
+        padding:5px 5px;
+        margin-top: 7px;
+        background-color: #e1e1e196;
+        border: 1px solid transparent;
+        outline: none;
+        font-size: 9px;
+        color: #666;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all .3s ease;
+    }
+    
+    .details .addremove:hover{
+        background-color: #d5d4d4fa;
+        border: 1px solid transparent;
+    }
+    
+    .details h4{
+        margin-top: 20px;
+        color:  #FE6A27;
+        font-size: 13px;
+    }
+    
+    .paragraph{
+        margin-top: 20px;
+        width: 100%;
+        text-align: left;
+        padding: 0px 10px;
+        color: #333;
+        display: flex;
+        font-size: 15px;
+    }
+}
